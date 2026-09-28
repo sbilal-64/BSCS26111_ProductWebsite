@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prism Tech - Products</title>
+    <link rel="stylesheet" href="bscs26111_style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="bscs26111_Home.html">HOME</a>
+        <a href="bscs26111_Products.html">PRODUCTS</a>
+        <a href="bscs26111_Contact.html">ABOUT US</a>
+    </nav>
+
+    <!-- Products -->
+    <div class="products">
+        <h2>Featured Graphics Cards</h2>
+
+        <!-- Product 1: NVIDIA RTX 4070 Super -->
+        <div class="product-card">
+            <img src="bscs26111_image2.png" alt="NVIDIA RTX 4070 Super">
+            <div class="prod-details">
+                <h3>NVIDIA GeForce RTX 4070 Super (12GB)</h3>
+                <p class="price">Price: $599.00</p>
+                <button onclick="checkStock('stock1', 'In Stock')">Check Availability</button>
+                <p id = "stock1"></p>
+                <p class="description">
+                    Powered by the ultra-efficient Ada Lovelace architecture with 12GB GDDR6X VRAM.<br>
+                    Features 3rd-gen RT cores and AI-accelerated DLSS 3 frame gen.<br>
+                    Suitable for smooth 1440p and entry-level 4K gaming.
+                </p>
+            </div>
+        </div>
+
+        <!-- Product 2: AMD Radeon RX 7800 XT -->
+        <div class="product-card">
+            <img src="bscs26111_image3.png" alt="AMD Radeon RX 7800 XT">
+            <div class="product-details">
+                <h3>AMD Radeon RX 7800 XT (16GB)</h3>
+                <p class="price">Price: $499.00</p>
+                <button onclick="checkStock('stock2', 'In Stock')">Check Availability</button>
+                <p id = "stock2"></p>
+                <p class="description">
+                    Equipped with 16GB of high-speed GDDR6 memory with a 256-bit bus.<br>
+                    Built on RDNA 3 chiplet design with support for AMD FidelityFX Super Resolution.<br>
+                    Provides excellent price-to-performance ratio for maxed-out 1440p gaming.
+                </p>
+            </div>
+        </div>
+
+        <!-- Product 3: NVIDIA RTX 4080 Super -->
+        <div class="product-card">
+            <img src="bscs26111_image4.png" alt="NVIDIA RTX 4080 Super">
+            <div class="product-details">
+                <h3>NVIDIA GeForce RTX 4080 Super (16GB)</h3>
+                <p class="price">Price: $999.00</p>
+                <button onclick="checkStock('stock3', 'Out of Stock')">Check Availability</button>
+                <p id = "stock3"></p>
+                <p class="description">
+                    High-end enthusiast GPU featuring 10,240 CUDA cores and 16GB of fast GDDR6X memory.<br>
+                    Offers top-tier ray tracing and ultra-fast video rendering speeds.<br>
+                    Includes an advanced triple-fan cooling system for optimal thermals under load.
+                </p>
+            </div>
+        </div>
+
+        <!-- Product 4: AMD Radeon RX 7900 XTX -->
+        <div class="product-card">
+            <img src="bscs26111_image5.png" alt="AMD Radeon RX 7900 XTX">
+            <div class="product-details">
+                <h3>AMD Radeon RX 7900 XTX (24GB)</h3>
+                <p class="price">Price: $949.00</p>
+                <button onclick="checkStock('stock4', 'Out of Stock')">Check Availability</button>
+                <p id = "stock4"></p>
+                <p class="description">
+                    AMD's flagship GPU carrying a massive 24GB GDDR6 memory buffer.<br>
+                    Features DisplayPort 2.1 support for ultra-high refresh rate gaming displays.<br>
+                    Designed specifically for heavy 4K and memory-intensive workflows.
+                </p>
+            </div>
+        </div>
+
+        <!-- Product 5: NVIDIA RTX 4060 -->
+        <div class="product-card">
+            <img src="bscs26111_image6.jpg" alt="NVIDIA RTX 4060">
+            <div class="product-details">
+                <h3>NVIDIA GeForce RTX 4060 (8GB)</h3>
+                <p class="price">Price: $299.00</p>
+                <button onclick="checkStock('stock5', 'In Stock')">Check Availability</button>
+                <p id = "stock5"></p>
+                <p class="description">
+                    Budget-friendly, energy-efficient graphics card with a compact dual-slot design.<br>
+                    Runs cooler with minimal power consumption, requiring only a single 8-pin connector.<br>
+                    Optimized for esports titles and AAA gaming at 1080p high settings.
+                </p>
+            </div>
+        </div>
+    </div>
+<script src="bscs26111_script.js"></script>
+</body>
+</html>
